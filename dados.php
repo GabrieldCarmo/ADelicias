@@ -16,4 +16,38 @@ $quantidade = [
     "Bolos" => [1, 2, 3, 4, 5],
 ];
 
+produtos = [
+    Bolos => [
+        [
+            "sabor" => "Chocolate",
+            "preco" => 45,
+            "descricao" => "Bolo com cobertura cremosa de chocolate"
+        ],
+        [
+            "sabor" => "Cenoura",
+            "preco" => 40,
+            "descricao" => "Bolo de cenoura com cobertura de chocolate"
+        ],
+        [
+            "sabor" => "Prestigio",
+            "preco" => 55,
+            "descricao" => "Chocolate com coco"
+        ],
+        [
+            "sabor" => "Morango",
+            "preco" => "",
+            "descricao" => ""
+        ],
+        [
+            "sabor" => "",
+            "preco" => "",
+            "descricao" => ""
+        ],
+        [
+            "sabor" => "",
+            "preco" => "",
+            "descricao" => ""
+        ],
+    ]
+]
 ?>
