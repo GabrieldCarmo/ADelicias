@@ -57,6 +57,25 @@
         <?php endif; ?>
 
     </form>
+
+    <?php 
+    if($qtdSelecionada && $saborSelecionado && $tiposSelecionado):
+        foreach ($produtos[$tiposSelecionado] as $produto):
+            if ($produto["sabor"] === $saborSelecionado):
+                $total = $produto["preco"] * (float)$qtdSelecionada
+                ?>
+                    <h3>Resumo do pedido</h3>
+                    <p><strong>Produto:</strong> <?=$produto["sabor"]?> </p>
+                    <p><strong>Descrição:</strong> <?=$produto["descricao"]?> </p>
+                    <p><strong>Quantidade:</strong> <?= $qtdSelecionada?> <?=  ($tiposSelecionado == "bolos") ? "Kg" : " Unidades" ?></p>
+                    <p class="precop"><strong>Preço:</strong> R$ <?= number_format($total, 2, ",",".") ?> </p>
+                    <img id="#comidas" src="img/<?= $produto["imagem"] ?>">
+                <?php
+            endif;
+        endforeach;
+    endif;
+    ?>
+
 </div>
 
 <div class="footer">
