@@ -88,28 +88,30 @@ $produtos = [
         ]
     ],
     "doces" => [
-        "sabor" => "Brigadeiro",
-        "preco" => 0.8,
-        "descricao" => "Tradicional brigadeiro de chocolate",
-        "imagem" => ""
-    ],
-    [
-        "sabor" => "Beijinho",
-        "preco" => 0.8,
-        "descricao" => "Doce de coco com leite condensado",
-        "imagem" => ""
-    ],
-    [
-        "sabor" => "Cajuzinho",
-        "preco" =>0.9,
-        "descricao" => "Doce de amendoim",
-        "imagem" => ""
-    ],
-    [
-        "sabor" => "Camafeu",
-        "preco" => 1.5,
-        "descricao" => "Nozes com cobertura especial",
-        "imagem" => ""
-    ],
+        [
+            "sabor" => "Brigadeiro",
+            "preco" => 0.8,
+            "descricao" => "Tradicional brigadeiro de chocolate",
+            "imagem" => ""
+        ],
+        [
+            "sabor" => "Beijinho",
+            "preco" => 0.8,
+            "descricao" => "Doce de coco com leite condensado",
+            "imagem" => ""
+        ],
+        [
+            "sabor" => "Cajuzinho",
+            "preco" => 0.9,
+            "descricao" => "Doce de amendoim",
+            "imagem" => ""
+        ],
+        [
+            "sabor" => "Camafeu",
+            "preco" => 1.5,
+            "descricao" => "Nozes com cobertura especial",
+            "imagem" => ""
+        ]
+    ]
 ];
 ?>
